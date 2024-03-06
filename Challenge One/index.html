@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        
+        <img class ="logoAlura"  src="./imagens/logoAlura.png"  alt="Logo da Alura">
+      
+    </header>
+
+    <main>
+        <section>
+            <textarea class = "text-area" cols="41" rows="4" placeholder="Digite seu Texto aqui!"></textarea>
+        
+            <div class = "informacao">
+                <div class="informaçao__img">
+                    <img src="./imagens/oi.png" alt="ícone de informação" width="16px">
+                  </div>
+                 <div class="informaçao__frase">
+                     Apenas letras minúsculas e sem acento.
+                 </div>
+            
+            </div>
+        <div class = "botoes">
+            <div class="botaoPrimeiro">
+
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar"  onclick="btnDesencriptar()">Descriptografar</button>
+            
+        </div>
+           
+        </div>
+    
+        </section>
+        
+        <section >
+                <textarea class = "mensagem" cols="24" rows="11"></textarea>
+                <button class="btn-copiar"  onclick="copiarTexto()">copiar</button>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            Alura challenges Oracle ONE
+        </div>
+    </footer>
+<script src= "script.js"></script>
+
+</body>
+</html>
